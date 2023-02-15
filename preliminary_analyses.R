@@ -1,6 +1,6 @@
-rm(list=ls())
+# rm(list=ls())
 
-# libraries
+# libraries 
 library(lavaan)
 library(readxl)
 library(tidyverse)
@@ -163,7 +163,7 @@ cohen.d(dbpm$PSB_etero, dbpm$Age)
 
 
 
-# ANOVA
+# ANOVAs
 
 db_aov <- data.frame(EI = c(dbpm$EI_auto,dbpm$EI_etero),
                      PVA = c(dbpm$PVA_auto,dbpm$PVA_etero),
